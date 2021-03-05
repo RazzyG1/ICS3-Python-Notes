@@ -57,13 +57,13 @@ def main():
         #Move the circle
         circle.pos[0] += circleSpeed  #TODO: Replace with with the move() method.
         
-  if (x < 0 || x > width) {
-    xSpeed *= -1;
-  }
-
-  if (y < 0  || y > height) {
-    ySpeed *= -1;
-  }
+#   if (x < 0 || x > width) {
+#     xSpeed *= -1;
+#   }
+# 
+#   if (y < 0  || y > height) {
+#     ySpeed *= -1;
+#   }
         # Draw the circle on the surface
         circle.draw(mainSurface)
 

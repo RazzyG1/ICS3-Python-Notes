@@ -28,7 +28,7 @@ class Ball():
         #TODO check to see if the point is inside the circle.  If so return true, otherwise false.
         pass
     
-    def collideXXXX(self)
+    def collideXXXX(self):
         #Even more challenge
         #TODO Add another collison check for a differnt object type (another Ball, a rect, etc.)
         pass
@@ -56,11 +56,11 @@ def main():
 
         # We draw everything from scratch on each frame.
         # So first fill everything with the background color
-        mainSurface.fill((0, 200, 255))
+        mainSurface.fill((100, 200, 255))
 
         
         #Move the circle
-        circle.pos[0] += 1  #TODO: Replace with with the move() method.
+        circle.pos[0] += 1   #TODO: Replace with with the move() method.
         
         # Draw the circle on the surface
         circle.draw(mainSurface)
